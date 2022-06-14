@@ -14,12 +14,12 @@ use the [nodesource debian installation instructions](https://github.com/nodesou
 
 # install sapphire #
 
-`npm install @sapphire/framework`
+***npm install @sapphire/framework***
 
 
 # create a sapphire project #
 
-`sapphire new`
+***sapphire new***
 
 give the project a name.
 
@@ -55,11 +55,11 @@ copy the bot token.
 
 cd into your sapphire project
 
-`cd bot_project`
+***cd bot_project***
 
 create a password json file
 
-`touch password.json`
+***touch password.json***
 
 edit this content into password.json, replacing BOT_TOKEN with the bot token from the discord developers portal.
 
