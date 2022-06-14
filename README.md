@@ -17,3 +17,21 @@ use the [nodesource debian installation instructions](https://github.com/nodesou
 `npm install @sapphire/framework`
 
 
+# create a sapphire project #
+
+`sapphire new`
+
+give the project a name.
+
+choose typescript for the language.
+
+choose 'default template' for the template.
+
+choose json for the config file.
+
+choose npm for the package manager.
+
+yes to creating a git repository.
+
+# create the bot token #
+
