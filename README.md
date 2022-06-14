@@ -37,3 +37,21 @@ yes to creating a git repository.
 
 go to the [discord developers portal](https://discord.com/developers/applications)
 
+click on 'applications' on the left hand menu.
+
+click on 'new application'.
+
+create a new application.
+
+click on the newly created application.
+
+click on 'bot' in the left hand menu.
+
+copy the bot token.
+
+--- some more stuff ----
+
+# modify your project to connect to the bot #
+
+
+
