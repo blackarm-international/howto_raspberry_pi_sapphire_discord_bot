@@ -53,5 +53,17 @@ copy the bot token.
 
 # modify your project to connect to the bot #
 
+cd into your sapphire project
+
+`cd bot_project`
+
+create a password json file
+
+`touch password.json`
+
+edit this content into password.json, replacing BOT_TOKEN with the bot token from the discord developers portal.
+
+`{password: 'BOT_TOKEN'}`
+
 
 
