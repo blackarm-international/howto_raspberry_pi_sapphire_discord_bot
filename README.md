@@ -35,3 +35,5 @@ yes to creating a git repository.
 
 # create the bot token #
 
+go to the [discord developers portal](https://discord.com/developers/applications)
+
