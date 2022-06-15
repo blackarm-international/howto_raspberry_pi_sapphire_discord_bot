@@ -57,10 +57,6 @@ use the [nodesource debian installation instructions](https://github.com/nodesou
 
 `npm install -g @sapphire/framework`
 
-# install nodemon #
-
-`npm install -g nodemon`
-
 # create a sapphire project #
 
 `sapphire new`
