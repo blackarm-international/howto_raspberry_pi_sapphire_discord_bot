@@ -8,18 +8,43 @@ run the imager and install Raspberry Pi OS Lite onto the sd card. (pi 3 needs 32
 
 put the sd card in the pi.
 
-connect pi to keyboard, monitor and network.
+connect pi to keyboard, monitor.
 
-reboot.
+power up.
 
 # configure pi
+
+find the user name
+
+`whoami`
 
 start the raspberry pi config tool
 
 `sudo raspi-config`
 
+- change password
 
+- set the hostname (this will show up in nmap)
 
+- enable ssh
+
+shut the pi down
+
+`sudo shutdown -h now`
+
+# connect pi to network and ssh in
+
+plug the pi into the router
+
+connect the power supply
+
+find the pi's ip address with nmap
+
+`nmap -sS -p 22 192.168.1.0/24`
+
+look for the hostname you set with the config tool, use this and the user name you found earlier to connect
+
+`ssh username@192.168.1.XXX`
 
 # install node #
 
