@@ -165,4 +165,14 @@ run the bot
 `node index.js`
 
 
+# make the bot join your server
 
+visit the url you created in the developers portal.
+
+click to accept
+
+# test the bot #
+
+in discord type....
+
+**!ping**
