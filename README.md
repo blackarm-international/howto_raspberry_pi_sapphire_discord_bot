@@ -84,7 +84,23 @@ create a json password file (this will be edited later)
 
 `echo '{token: "BOT_TOKEN"}' > config.json`
 
-# create the bot token #
+edit index.ts
+
+`nano index.ts`
+
+add this line at the start
+
+**const botData = require('./config.json');**
+
+change this line
+
+**client.login();**
+
+to
+
+**client.login(botData.token);**
+
+# create the bot in the discord developers portal #
 
 go to the [discord developers portal](https://discord.com/developers/applications)
 
