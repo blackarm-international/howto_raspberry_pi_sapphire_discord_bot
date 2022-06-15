@@ -130,7 +130,7 @@ click on 'bot' in the left hand menu.
 
 
 
------- get help from jakey here --------
+------ get help from jake here --------
 
 
 
