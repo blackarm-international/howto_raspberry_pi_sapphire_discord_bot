@@ -50,8 +50,8 @@ connect with ssh (replace the xxxs with username and ip)
 
 use the [nodesource debian installation instructions](https://github.com/nodesource/distributions/blob/master/README.md#debinstall "nodesource debian installation instructions") to install the latest version of node.
 
-`curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
-apt-get install -y nodejs`
+`curl -fsSL https://deb.nodesource.com/setup_18.x | bash -`
+`apt-get install -y nodejs`
 
 # install sapphire #
 
