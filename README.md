@@ -42,9 +42,9 @@ find the pi's ip address with nmap
 
 `nmap -sS -p 22 192.168.1.0/24`
 
-look for the hostname you set with the config tool, use this and the user name you found earlier to connect
+connect with ssh (replace the xxxs with username and ip)
 
-`ssh username@192.168.1.XXX`
+`ssh xxxxxxxx@192.168.1.XXX`
 
 # install node #
 
