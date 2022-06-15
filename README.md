@@ -80,9 +80,17 @@ go into the code folder
 
 `cd testbot`
 
-create a json password file (this will be edited later)
+create a json password file 
 
-`echo '{token: "BOT_TOKEN"}' > config.json`
+`touch config.json`
+
+edit the password file
+
+`nano config.json`
+
+enter this line and save
+
+**{token: "BOT_TOKEN"}**
 
 edit index.ts
 
@@ -99,6 +107,8 @@ change this line
 to
 
 **client.login(botData.token);**
+
+save
 
 # create the bot in the discord developers portal #
 
