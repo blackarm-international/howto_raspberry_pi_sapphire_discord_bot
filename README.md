@@ -51,12 +51,15 @@ connect with ssh (replace the xxxs with username and ip)
 use the [nodesource debian installation instructions](https://github.com/nodesource/distributions/blob/master/README.md#debinstall "nodesource debian installation instructions") to install the latest version of node.
 
 `curl -fsSL https://deb.nodesource.com/setup_18.x | bash -`<br/>
-`apt-get install -y nodejs`
+`sudo apt-get install -y nodejs`
 
 # install sapphire #
 
-`npm install @sapphire/framework`
+`npm install -g @sapphire/framework`
 
+# install nodemon #
+
+`npm install -g nodemon`
 
 # create a sapphire project #
 
@@ -88,7 +91,7 @@ edit the password file
 
 `nano config.json`
 
-enter this line and save
+enter this line and save (this will be edited later)
 
 **{token: "BOT_TOKEN"}**
 
@@ -124,23 +127,42 @@ click on the newly created application.
 
 click on 'bot' in the left hand menu.
 
-copy the bot token.
 
---- some more stuff ----
+
+
+------ get help from jakey here --------
+
+
+
+
+
+
+
+
 
 # modify your project to connect to the bot #
 
-cd into your sapphire project
+edit the password file
 
-***cd bot_project***
+`nano config.json`
 
-create a password json file
+replace BOT_TOKEN with the bot token from the developers portal.
 
-***touch password.json***
+save
 
-edit this content into password.json, replacing BOT_TOKEN with the bot token from the discord developers portal.
+# build the bot
 
-`{password: 'BOT_TOKEN'}`
+`npm build`
+
+# start the bot
+
+start a screen session
+
+`screen`
+
+run the bot
+
+`node index.js`
 
 
 
