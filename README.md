@@ -14,6 +14,10 @@ reboot.
 
 # configure pi
 
+start the raspberry pi config tool
+
+`sudo raspi-config`
+
 
 
 
